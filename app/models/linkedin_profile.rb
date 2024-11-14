@@ -1,0 +1,2 @@
+class LinkedinProfile < ApplicationRecord
+end
