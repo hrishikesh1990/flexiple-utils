@@ -6,7 +6,7 @@ namespace :linkedin_profiles do
       exit 1
     end
 
-    api_key = 'd3418c47-6ba4-4d7e-9b79-6c9bb413d83f'
+    api_key = ENV['PILOTERR_API_KEY']
     unless api_key
       puts "PILOTERR_API_KEY environment variable is required"
       exit 1
